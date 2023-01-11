@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+<h1>fieldset</h1>
+
+<fieldset> 
+  <legend>Personal Info</legend> 
+  <label for="fname">First name:</label><br> 
+  <input type="text" id="fname" name="fname" value="John"><br> 
+  <label for="lname">Last name:</label><br> 
+  <input type="text" id="lname" name="lname" value="Doe"><br> 
+</fieldset> 
+
+<fieldset> 
+  <legend>Qualificaiton</legend> 
+  <label for="pdegree">Primary degree:</label><br> 
+  <input type="text" id="pdegree" name="degree" value="Masters"><br> 
+  <label for="fos">Last name:</label><br> 
+  <input type="text" id="fos" name="field" value="Psychology"><br> 
+</fieldset> 
+
+<h1>datalist</h1>
+<form action="/my_action_page"> 
+  <label for="flowers">Favourite flower:</label><br> 
+  <input list="flowers" name="flowers"> 
+  <datalist id="flowers"> 
+    <option value="Rose"> 
+    <option value="Lily"> 
+    <option value="Tulip"> 
+    <option value="Daffodil"> 
+    <option value="Orchid"> 
+  </datalist> 
+  ... 
+</form>
+
+
+
+
+<h1>optiooooooong</h1>
+<label for="course">Choose a course:</label><br> 
+<select id="course" name="courselist"> 
+  <option value="html">HTML Introduction</option> 
+  <option value="css">Styling with CSS</option> 
+  <option value="js">JavaScript</option> 
+  <option value="react">React Basics</option> 
+</select> 
+
+
+<form method="POST">
+   <input type="text" name="username">
+   <input type="password" name="password">
+   <button type="submit">Log In</button>
+</form>
+<br>
+<hr>
+
+
+
+<video controls width="320" height="240">
+    <source src="video.mp4" type="video/mp4">
+  </video>
+
+  <form>
+    <div>
+      <label for="rating">Rating</label>
+      <input type="range" min="1" max="5" id="rating" name="rating" list="ratings">
+      <datalist id="ratings">
+          <option value="1" label="1"></option>
+          <option value="2"></option>
+          <option value="3"></option>
+          <option value="4"></option>
+          <option value="5" label="5"></option>
+      </datalist>
+    </div>
+    <button type="submit">Submit Rating</button>
+  </form><br>
+
+  <figure> 
+    <img src="logo.png" width="320" alt="My Profile Photo"> 
+    <figcaption>A photo of myself on a beach in 2015</figcaption> 
+ </figure>
+
+ <video src="" autoplay></video>
+
+ <i class='bx bx-user'></i>
+<i class='bx bxs-user'></i>
+<i class='bx bxl-facebook-square'></i>
+ <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>
